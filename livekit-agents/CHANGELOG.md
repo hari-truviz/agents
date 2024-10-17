@@ -1,5 +1,15 @@
 # livekit-agents
 
+## 0.10.3
+
+### Patch Changes
+
+- stt: reduce bandwidth usage by reducing sample_rate to 16khz - [#920](https://github.com/livekit/agents/pull/920) ([@theomonnom](https://github.com/theomonnom))
+
+- pipeline-agent: avoid nested function calls - [#935](https://github.com/livekit/agents/pull/935) ([@theomonnom](https://github.com/theomonnom))
+
+- fix jobs never reloading - [#934](https://github.com/livekit/agents/pull/934) ([@theomonnom](https://github.com/theomonnom))
+
 ## 0.10.2
 
 ### Patch Changes
